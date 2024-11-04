@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'CommissionerRegular';
+    src: url('fonts/CommissionerRegular.eot');
+    src: url('fonts/CommissionerRegular.eot') format('embedded-opentype'),
+         url('fonts/CommissionerRegular.woff2') format('woff2'),
+         url('fonts/CommissionerRegular.woff') format('woff'),
+         url('fonts/CommissionerRegular.ttf') format('truetype'),
+         url('fonts/CommissionerRegular.svg#CommissionerRegular') format('svg');
+}

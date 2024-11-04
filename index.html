@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./boxicons/css/boxicons.min.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Protea Hotel Ndola</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar width">
+        <div class="logo_container">
+          <a href="./index.html" class="logo">
+            <img
+              src="./images/protea-logo.png"
+              alt="protea logo"
+              class="logo_img"
+            />
+          </a>
+        </div>
+
+        <ul class="list_wrapper">
+          <li class="list_links">
+            <a href="./index.html">HOME</a>
+          </li>
+          <li class="list_links">
+            <a href="./rooms.html">ROOMS</a>
+          </li>
+          <li class="list_links">
+            <a href="#about">ABOUT</a>
+          </li>
+          <li class="list_links">
+            <a href="#contacts">CONTACTS</a>
+          </li>
+        </ul>
+
+        <a href="./booking.html" class="book_button">BOOK NOW</a>
+      </nav>
+      <div class="header_title">
+        <h1>IMMERSE YOURSELF IN THE UNMATCHED COMFORT OF OUR NDOLA HOTEL</h1>
+      </div>
+    </header>
+
+    <section class="form_container">
+      <form class="booking_form width">
+        <div class="select_wrapper">
+          <label for="roomType" class="roomType">room type</label>
+          <select name="room-type">
+            <option value="select type selected">Select type</option>
+            <option value="king-delux-room">king delux room</option>
+            <option value="king-delux-room">twin delux room</option>
+            <option value="king-delux-room">standard room</option>
+          </select>
+        </div>
+
+        <div class="form_control">
+          <label for="arrivalDate">arrival date</label>
+          <input type="date" name="arrival-date" value="2024-10-20" />
+        </div>
+
+        <div class="form_control">
+          <label for="depatureTime">depature time</label>
+          <input type="date" name="departure-date" value="2024-11-20" />
+        </div>
+
+        <div class="form_control">
+          <label for="rooms">rooms</label>
+          <input type="number" name="rooms" min="1" max="5" placeholder="1" />
+        </div>
+
+        <button class="submit_btn" type="submit">Search</button>
+      </form>
+
+      <div class="partner_hotels">
+        <img
+          src="./images/hotel-groups.svg"
+          alt="partner hotels"
+          class="partner_covers"
+        />
+      </div>
+    </section>
+
+    <section class="welcome_section width">
+      <div class="welcome_heading">
+        <div class="text_content">
+          <h2>WELCOME TO PROTEA HOTEL NDOLA</h2>
+          <h5>Experience a unique stay in our luxurious rooms</h5>
+        </div>
+        <span>
+          <p>experience our beautiful amenities</p>
+        </span>
+      </div>
+
+      <div class="gallery_container">
+        <div class="gallery_cards cards_one">
+          <span class="card_details">Hotel Lobby</span>
+          <img src="./images/hotel-lobby-Wide-Hall.png" alt="Hotel Lobby" />
+        </div>
+        <div class="gallery_cards cards_two">
+          <span class="card_details">Hotel Restaurant</span>
+          <img src="./images/restaurant-2.png" alt="Hotel Restaurant" />
+        </div>
+        <div class="gallery_cards cards_three">
+          <span class="card_details">Hotel conference hall</span>
+          <img src="./images/conference-room.png" alt="Hotel conference hall" />
+        </div>
+        <div class="gallery_cards cards_four">
+          <span class="card_details">Hotel swimming pool</span>
+          <img src="./images/swimming-pool.png" alt="Hotel swimming pool" />
+        </div>
+      </div>
+    </section>
+
+    <section class="about_container" id="about">
+      <div class="about_content width">
+        <div class="heading">
+          <p class="about_text">
+            Awarded the coolest hotel brand in south africa at the sunday times
+            next gen awards.
+          </p>
+          <div class="rating_wrapper">
+            <img src="./images/3-stars.svg" alt="star ratings" />
+          </div>
+        </div>
+        <div class="awards_wrapper">
+          <img src="./images/awards.svg" alt="awards list" />
+        </div>
+      </div>
+    </section>
+
+    <section class="room_types width">
+      <div class="heading_wrapper">
+        <h2 class="room_heading">
+          ENJOY AN UNFORGETTABLE STAY WITH THE BEST CHARM
+        </h2>
+
+        <a href="./rooms.html" class="viewmore">
+          <p>view more</p>
+          <img src="./images/chevron.svg" class="icon" />
+        </a>
+      </div>
+
+      <div class="rooms_container">
+        <div class="room_cards">
+          <div class="room_cover">
+            <img
+              src="./images/deluxe-king-room.png"
+              alt="King Delux Room"
+              onclick="location.href = './room-page.html';"
+              style="cursor: pointer"
+            />
+          </div>
+
+          <div class="room_info">
+            <div class="room_features">
+              <h4 class="room_name">twin delux room</h4>
+              <img src="./images/Amenities.svg" alt="room features" />
+            </div>
+
+            <div class="room_pricing">
+              <span class="per_nigh">
+                <p>per night</p>
+                <h3 class="price">$204</h3>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="room_cards">
+          <div class="room_cover">
+            <img
+              src="./images/deluxe-twin.png"
+              alt="King Delux Room"
+              onclick="location.href = './room-page.html';"
+              style="cursor: pointer"
+            />
+          </div>
+          <div class="room_info">
+            <div class="room_features">
+              <h4 class="room_name">Twin delux room</h4>
+              <img src="./images/Amenities.svg" alt="room features" />
+            </div>
+
+            <div class="room_pricing">
+              <span class="per_nigh">
+                <p>per night</p>
+                <h3 class="price">$204</h3>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="room_cards">
+          <div class="room_cover">
+            <img
+              src="./images/deluxe-twin-1.png"
+              alt="King Delux Room"
+              onclick="location.href = './room-page.html';"
+              style="cursor: pointer"
+            />
+          </div>
+          <div class="room_info">
+            <div class="room_features">
+              <h4 class="room_name">King delux room</h4>
+              <img
+                src="./images/Amenities.svg"
+                alt="room features"
+                onclick="location.href = './room-page.html';"
+                style="cursor: pointer"
+              />
+            </div>
+
+            <div class="room_pricing">
+              <span class="per_nigh">
+                <p>per night</p>
+                <h3 class="price">$204</h3>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer_container">
+      <div class="footer_wrapper width">
+        <div class="footer_content footer_text">
+          <div class="footer_logo">
+            <img src="./images/protea-logo.png" alt="Protea Hotels" />
+          </div>
+          <p class="about_information">
+            Protea Hotels by Marriott® is a highly esteemed hospitality brand
+            renowned for its extensive footprint across Africa. With hotels in
+            South Africa, Zambia, Nigeria, Botswana, Namibia, Ghana, Tanzania,
+            Uganda, Angola, and Malawi, we have the largest strategic presence
+            on the continent. The Protea Hotels by Marriott portfolio comprises
+            two brands: the mid-upmarket Protea Hotels by Marriott, including
+            the lifestyle brand Protea Hotel Fire & Ice! by Marriott. The
+            portfolio presents a full and diverse range of outstanding hotels,
+            each is uniquely designed with its own personality, providing guests
+            an opportunity to get a taste of the local flavor in a truly
+            authentic way. Protea Hotels by Marriott is proud to be part of
+            Marriott International, the world’s largest hotel company based in
+            Bethesda, Maryland, USA, with 8500+ properties across 138
+            territories, including gateway cities such as London, Dubai and New
+            York.
+          </p>
+        </div>
+
+        <div class="footer_content">
+          <h4>quick links</h4>
+          <ul class="quick_links">
+            <li><a href="./index.html">home</a></li>
+            <li><a href="./rooms.html">rooms</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#contacts">contacts</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_content" id="contacts">
+          <h4 class="contacts_heading">Contact Us</h4>
+          <div class="contact_wrapper">
+            <div class="wrapper_details">
+              <i class="bx bx-play"></i>
+              <p class="contacts">Phone: +123 456 7890</p>
+            </div>
+            <div class="wrapper_details">
+              <p class="contacts">Email: info@proteandola.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer_content">
+          <h4>DON’T MISS ANY UPDATES</h4>
+          <form class="footer_form">
+            <input type="email" placeholder="Your email" />
+            <button type="submit" class="footer_btn">Sign Up</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
